@@ -67,9 +67,9 @@ contact_form = """
 
 # IMAGE URLs (replace with your actual GitHub raw URLs)
 newlogo_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/newlogo.png"
-wifi_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Badger-Den-RV-Park/main/assets/wifi.png"
-dog_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Badger-Den-RV-Park/main/assets/dog.png"
-laundry_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Badger-Den-RV-Park/main/assets/laundry.png"
+wifi_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/wifi.png"
+dog_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/dog.png"
+laundry_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/laundry.png"
 
 # SMOOTH SCROLL CSS targeting Streamlit's main scroll container
 st.markdown("""
@@ -525,7 +525,7 @@ st.markdown("""
 st.markdown("""
     <div id="park_map" style="scroll-margin-top: 110px; text-align: center;">
         <h2>Park Map</h2>
-        <p>Check which RV sites are currently available. (Availability map coming soon!)</p>
+        
     </div>
 """, unsafe_allow_html=True)
 
