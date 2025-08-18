@@ -54,10 +54,10 @@ st.markdown("""
 #CONTACT FORM INFO
 contact_form = """
 <form action="https://formsubmit.co/acre123rvpark@outlook.com" method="POST">
-     <input type="text" name="name" placeholder="Your full name" required>
-     <input type="email" name="email" placeholder="Your email" required>
-     <input type="phone" name="phone" placeholder="Your phone number" required>
-     <textarea name="message" placeholder="Your message here"></textarea>
+     <input type="text" name="Name" placeholder="Your full name" required>
+     <input type="email" name="Email" placeholder="Your email" required>
+     <input type="phone" name="Phone" placeholder="Your phone number" required>
+     <textarea name="Message" placeholder="Your message here"></textarea>
      <button type="submit">Send</button>
      <input type="hidden" name="_autoresponse" value="Your inquiry has been received and we will be in contact with you shortly!">
 </form>
@@ -70,6 +70,7 @@ newlogo_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/
 wifi_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/wifi.png"
 dog_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/dog.png"
 laundry_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/laundry.png"
+map_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/map.png"
 
 # SMOOTH SCROLL CSS targeting Streamlit's main scroll container
 st.markdown("""
@@ -366,20 +367,6 @@ st.markdown(f"""
         margin-bottom: 0.5rem;
     }}
 
-    /* Availability Section */
-    .availability-section{{
-        margin: 3rem 0;
-        padding: 0 10%;
-        text-align: center;
-                }}
-    .availability-title {{
-        text-align: center;
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 2rem;
-        color: #333;
-    }}
-
     
     /* Book Now Section */
     .book-section {{
@@ -507,25 +494,17 @@ st.markdown("""
         <th>Price (50A)</th>
     </tr>
     <tr>
-        <td>Bi-Monthly</td>
-        <td>$300</td>
-        <td>$350</td>
+        <td>Weekly</td>
+        <td>$180</td>
+        <td>$180</td>
     </tr>
     <tr>
         <td>Monthly</td>
         <td>$550</td>
-        <td>$600</td>
+        <td>$575</td>
     </tr>
 </table>
         </div>
-    </div>
-""", unsafe_allow_html=True)
-
-#PARK MAP SECTION
-st.markdown("""
-    <div id="park_map" style="scroll-margin-top: 110px; text-align: center;">
-        <h2>Park Map</h2>
-        
     </div>
 """, unsafe_allow_html=True)
 
@@ -577,7 +556,7 @@ st.markdown(f"""
     <div id="amenities" class="amenities-section">
         <div class="amenities-title">Amenities</div>
         <div class="amenities-description">
-            We offer a variety of on-site amenities to make your stay more comfortable, convenient, and connected. Whether you're traveling solo or with pets, we provide the essentials to help you feel right at home.
+            We offer a variety of on-site amenities to make your stay more comfortable, convenient, and connected. Whether you're traveling solo or with pets, we provide the essentials to help you feel right at home. Utilities included.
         </div>
         <div class="amenities">
             <div class="amenity">
@@ -596,12 +575,34 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
+# Park Map Section
+
+# Anchor for smooth scrolling offset
+st.markdown('<div id="park_map" style="scroll-margin-top: 80px;"></div>', unsafe_allow_html=True)
+
+# Section title, centered
+st.markdown("<h2 style='text-align: center;'>Park Map</h2>", unsafe_allow_html=True)
+
+# URL of the map image on GitHub
+park_map_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-park/main/assets/map.png"
+
+# Display the image in a centered, responsive container
+st.markdown(
+    f"""
+    <div style="display: flex; justify-content: center;">
+        <img src="{park_map_url}" style="max-width: 40%; height: auto;" alt="Acre 123 RV Park Map">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # BOOK NOW SECTION
 st.markdown(f"""
              <div id="book" style="position: relative; top: -110px;"></div>
     <div id="book" class="book-section">
         <div class="book-title">Book Now</div>
         <div class="book-content">
-            Complete the contact form below and we will be in contact about your stay shortly!
+            Please complete the contact form below and we will be in contact about your stay shortly! Reserve your spot now for PARK OPENING on October 1, 2025.
             {contact_form}
 """, unsafe_allow_html=True)
