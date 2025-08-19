@@ -453,6 +453,16 @@ st.markdown(f"""
         </div>
     """, unsafe_allow_html=True)
 
+#Hides Streamlit Header#
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # HERO / BACKGROUND IMAGE
 st.markdown("""
     <div class="hero-section">
