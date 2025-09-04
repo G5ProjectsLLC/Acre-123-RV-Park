@@ -233,7 +233,7 @@ st.markdown(f"""
     <div class="contact-bar">
         <span>📞 <a href="tel:8305835739">830-583-5739</a></span>
         <span>📩 acre123rvpark@outlook.com</span>
-        <span>📍 <a href="https://www.google.com/maps/dir/?api=1&destination=711+Helena+Rd,+Karnes+City,+TX+78118" target="_blank">711 Helena Rd, Kenedy, TX 78118</a></span>
+        <span>📍 <a href="https://www.google.com/maps/dir/?api=1&destination=711+Helena+Rd,+Karnes+City,+TX+78118" target="_blank">711 Helena Rd, Karnes City, TX 78118</a></span>
     </div>
 
     <!-- Navigation Header -->
@@ -432,7 +432,7 @@ st.markdown("""
     <div class="contact-bar">
         <span>📞 <a href="tel:8305835739">830-583-5739</a></span>
         <span>📩 acre123rvpark@outlook.com</span>
-        <span>📍 <a href="https://www.google.com/maps/dir/?api=1&destination=711+Helena+Rd,+Karnes+City,+TX+78118" target="_blank">711 Helena Rd, Kenedy, TX 78118</a></span>
+        <span>📍 <a href="https://www.google.com/maps/dir/?api=1&destination=711+Helena+Rd,+Karnes+City,+TX+78118" target="_blank">711 Helena Rd, Karnes City, TX 78118</a></span>
     </div>
 """, unsafe_allow_html=True)
 
