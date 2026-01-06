@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Acre 123 RV Park", layout="wide")
+st.set_page_config(page_title="Acre 123 RV Park", layout="wide", page_icon="assets/newlogo.png")
 
 st.markdown("""
     <style>
@@ -71,6 +71,7 @@ wifi_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/mai
 dog_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/dog.png"
 laundry_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/laundry.png"
 map_url = "https://raw.githubusercontent.com/G5ProjectsLLC/Acre-123-RV-Park/main/assets/map.png"
+
 
 # SMOOTH SCROLL CSS targeting Streamlit's main scroll container
 st.markdown("""
