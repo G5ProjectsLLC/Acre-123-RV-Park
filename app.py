@@ -287,8 +287,18 @@ st.markdown(f"""
             padding: 10px 20px;
             font-size: 0.9rem;
         }}
+        .about-section {{
+            padding: 0 5% !important;
+        }}
         .about-content, .book-content, .amenities-description {{
             padding: 1.5rem;
+            max-width: 100%;
+            box-sizing: border-box;
+        }}
+        .about-text, .about-list {{
+            min-width: 100%;
+            max-width: 100%;
+            font-size: 1rem;
         }}
         .rates-table {{
             font-size: 1rem;
@@ -417,9 +427,17 @@ st.markdown(f"""
         font-size: 1.1rem;
         color: #5C4A37;
         line-height: 1.8;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-width: 100%;
     }}
     .about-text {{
         line-height: 1.8;
+    }}
+    .about-text p {{
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-width: 100%;
     }}
     .about-list ul {{
         padding-left: 0;
@@ -819,6 +837,6 @@ st.markdown(f"""
     <div id="book" class="book-section">
         <div class="book-title">Book Now</div>
         <div class="book-content">
-            Please complete the contact form below and we will be in contact about your stay shortly! Reserve your spot now for PARK OPENING on January, 1 2026.
+            Please complete the contact form below and we will be in contact about your stay shortly!
             {contact_form}
 """, unsafe_allow_html=True)
