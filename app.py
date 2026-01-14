@@ -840,7 +840,7 @@ st.markdown(f"""
         <div class="amenities">
             <div class="amenity amenity-wifi">
                 <img src="{wifi_url}" alt="Wi‑Fi">
-                <div>Free Wi‑Fi</div>
+                <div>Wi‑Fi</div>
             </div>
             <div class="amenity amenity-dog">
                 <img src="{dog_url}" alt="Pet Friendly">
