@@ -569,6 +569,15 @@ st.markdown(f"""
     .amenity-dog img {{
         filter: none !important;
     }}
+    .amenity-laundry {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-laundry:hover {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-laundry img {{
+        filter: none !important;
+    }}
     .amenity img {{
         width: 70px;
         margin-bottom: 1rem;
@@ -805,6 +814,15 @@ st.markdown(f"""
     .amenity-dog img {{
         filter: none !important;
     }}
+    .amenity-laundry {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-laundry:hover {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-laundry img {{
+        filter: none !important;
+    }}
 
     .amenity img {{
         width: 70px;
@@ -828,7 +846,7 @@ st.markdown(f"""
                 <img src="{dog_url}" alt="Pet Friendly">
                 <div>Pet Friendly</div>
             </div>
-            <div class="amenity">
+            <div class="amenity amenity-laundry">
                 <img src="{laundry_url}" alt="Laundry">
                 <div>Laundry Facilities</div>
             </div>
