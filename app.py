@@ -551,6 +551,24 @@ st.markdown(f"""
         box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
         background: rgba(255, 255, 255, 0.9);
     }}
+    .amenity-wifi {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-wifi:hover {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-wifi img {{
+        filter: none !important;
+    }}
+    .amenity-dog {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-dog:hover {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-dog img {{
+        filter: none !important;
+    }}
     .amenity img {{
         width: 70px;
         margin-bottom: 1rem;
@@ -769,6 +787,24 @@ st.markdown(f"""
         box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
         background: rgba(255, 255, 255, 0.9);
     }}
+    .amenity-wifi {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-wifi:hover {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-wifi img {{
+        filter: none !important;
+    }}
+    .amenity-dog {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-dog:hover {{
+        background: #FFFFFF !important;
+    }}
+    .amenity-dog img {{
+        filter: none !important;
+    }}
 
     .amenity img {{
         width: 70px;
@@ -781,14 +817,14 @@ st.markdown(f"""
     <div id="amenities" class="amenities-section">
         <div class="amenities-title">Amenities</div>
         <div class="amenities-description">
-            We offer a variety of on-site amenities to make your stay more comfortable, convenient, and connected. Whether you're traveling solo or with pets, we provide the essentials to help you feel right at home. Utilities included.
+            We offer a variety of on-site amenities to make your stay more comfortable, convenient, and connected. Whether you're traveling solo or with pets, we provide the essentials to help you feel right at home.
         </div>
         <div class="amenities">
-            <div class="amenity">
+            <div class="amenity amenity-wifi">
                 <img src="{wifi_url}" alt="Wi‑Fi">
                 <div>Free Wi‑Fi</div>
             </div>
-            <div class="amenity">
+            <div class="amenity amenity-dog">
                 <img src="{dog_url}" alt="Pet Friendly">
                 <div>Pet Friendly</div>
             </div>
