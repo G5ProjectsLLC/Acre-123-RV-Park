@@ -722,8 +722,8 @@ st.markdown("""
     </tr>
     <tr>
         <td>Monthly</td>
-        <td>$540 (plus electricity)</td>
-        <td>$580 (plus electricity)</td>
+        <td>$480</td>
+        <td>$500</td>
     </tr>
 </table>
         </div>
@@ -835,7 +835,7 @@ st.markdown(f"""
     <div id="amenities" class="amenities-section">
         <div class="amenities-title">Amenities</div>
         <div class="amenities-description">
-            We offer a variety of on-site amenities to make your stay more comfortable, convenient, and connected. Whether you're traveling solo or with pets, we provide the essentials to help you feel right at home.
+            We offer a variety of on-site amenities to make your stay more comfortable, convenient, and connected. Whether you're traveling solo or with pets, we provide the essentials to help you feel right at home. All utilities included.
         </div>
         <div class="amenities">
             <div class="amenity amenity-wifi">
