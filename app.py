@@ -342,6 +342,7 @@ st.markdown(f"""
     html, body, .stApp, [data-testid="stAppViewContainer"] {{
         background: linear-gradient(180deg, #F5F1E8 0%, #F0E8D8 100%) !important;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        overflow-x: hidden; /* prevent horizontal scrolling */
     }}
     /* Make Streamlit's block container transparent so the page background shows */
     main [data-testid="block-container"] {{
@@ -587,7 +588,7 @@ st.markdown(f"""
     
     /* Book Now Section - Modern Design */
     .book-section {{
-        margin: 4rem 0;
+        margin: 4rem 0 2rem 0;
         padding: 0 10%;
         text-align: center;
     }}
@@ -632,9 +633,24 @@ st.markdown(f"""
         color: #C9A961;
         text-decoration: none;
     }}
-    
 
-
+    /* Footer Bar */
+    .footer-bar {{
+        width: 100vw; /* full viewport width */
+        margin-left: calc(50% - 50vw); /* stretch edge to edge within centered container */
+        background: linear-gradient(135deg, #8B6F47 0%, #A0826D 100%);
+        color: #F5F1E8;
+        padding: 18px 32px;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 3rem;
+    }}
+    .footer-bar span {{
+        opacity: 0.9;
+    }}
 
     </style>
 """, unsafe_allow_html=True)
@@ -722,8 +738,8 @@ st.markdown("""
     </tr>
     <tr>
         <td>Monthly</td>
+        <td>$450</td>
         <td>$480</td>
-        <td>$500</td>
     </tr>
 </table>
         </div>
