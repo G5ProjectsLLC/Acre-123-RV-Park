@@ -2,18 +2,17 @@
 
 A web application built to showcase the Acre 123 RV Park, handle site details, and provide an easy way for guests to explore amenities and get in touch.
 
-##  Built With
+#  Built With
 
-* **Frontend:** HTML, CSS, JavaScript *(update/add frameworks like React/Vue if applicable)*
-* **Backend:** *(Add your backend technology here if any, e.g., Node.js, Python, or N/A for static site)*
+* **Frontend:** HTML, CSS, JavaScript
 
-##  Key Features
+#  Key Features
 
 * Clean layout displaying RV park amenities, location, and site information.
 * Responsive design for mobile, tablet, and desktop viewing.
 * Direct contact / inquiry options for prospective guests.
 
-##  Getting Started
+#  Getting Started
 
 To run this project locally:
 
