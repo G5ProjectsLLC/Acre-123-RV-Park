@@ -4,7 +4,7 @@ A web application built to showcase the Acre 123 RV Park, handle site details, a
 
 #  Built With
 
-* **Frontend:** HTML, CSS, JavaScript
+* **Frontend:** Python, with CSS styling
 
 #  Key Features
 
